@@ -20,14 +20,14 @@ struct ContentView: View {
                     Image(systemName: "arrowtriangle.forward.fill")
                         .resizable()
                         .opacity(isTapped ? 1 : 0)
-                        .frame(width: isTapped ? 20 : 0, height: isTapped ? 20 : 0)
+                        .frame(width: isTapped ? 40 : 0, height: isTapped ? 40 : 0)
                     Image(systemName: "arrowtriangle.forward.fill")
                         .resizable()
-                        .frame(width: 20, height: 20)
+                        .frame(width: 40, height: 40)
                     Image(systemName: "arrowtriangle.forward.fill")
                         .resizable()
                         .opacity(isTapped ? 0 : 1)
-                        .frame(width: isTapped ? 1 : 20, height: isTapped ? 1 : 20)
+                        .frame(width: isTapped ? 1 : 40, height: isTapped ? 1 : 40)
                 }
             })
         }
